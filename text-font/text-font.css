@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Rooters;
+    src: url('./rooters/Rooters Italic.otf'), url('./rooters/Rooters.otf');
+}
+
+@font-face {
+    font-family: Tattoo_shop;
+    src: url('./tattoo_shop/Tattoo Shop.otf');
+}

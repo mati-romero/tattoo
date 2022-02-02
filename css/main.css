@@ -1,0 +1,58 @@
+/* General */
+
+h2 {
+	font-family: Rooters;
+}
+
+p , a {
+	font-family: Tattoo_shop;
+	font-size: 20px;
+}
+
+.bg-negr {
+	background: #111423;
+}
+
+.bg-blanc {
+	background: #E5D7A6;
+}
+
+.text-naranj {
+	color: #F7941D;
+}
+
+.text-marron {
+	color: #A8692C;
+}
+
+.text-blanc {
+	color: #E5D7A6;
+}
+
+/* Nav*/
+
+.navbar .navbar-collapse .nav-item a {
+	font-family: Tattoo_shop;
+	color: #B31545;
+}
+
+
+.navbar .navbar-collapse .nav-item a:active , .navbar .navbar-collapse .nav-item a:visited .navbar, .navbar-collapse .nav-item a:focus {
+	color: #B31545;
+}
+
+.navbar .navbar-collapse .nav-item a:hover {
+	color: #EE4037;
+}
+
+/* Footer */
+
+.footer a {
+	color: #F7941D;
+	font-family: Tattoo_shop;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: #E5D7A6;
+}
