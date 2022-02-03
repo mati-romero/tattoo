@@ -1,6 +1,6 @@
 /* General */
 
-h2 {
+h1, h2 {
 	font-family: Rooters;
 }
 
@@ -15,6 +15,10 @@ p , a {
 
 .bg-blanc {
 	background: #E5D7A6;
+}
+
+.bg-marron {
+	background: #A8692C;
 }
 
 .text-naranj {
