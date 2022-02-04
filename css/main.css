@@ -37,12 +37,12 @@ p , a {
 
 .navbar .navbar-collapse .nav-item a {
 	font-family: Tattoo_shop;
-	color: #B31545;
+	color: #A8692C;
 }
 
 
 .navbar .navbar-collapse .nav-item a:active , .navbar .navbar-collapse .nav-item a:visited .navbar, .navbar-collapse .nav-item a:focus {
-	color: #B31545;
+	color: #A8692C;
 }
 
 .navbar .navbar-collapse .nav-item a:hover {
