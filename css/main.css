@@ -49,6 +49,24 @@ p , a {
 	color: #EE4037;
 }
 
+/* FAQ */
+
+.btn-faq {
+	background: #A8692C;
+	color: #E5D7A6;
+	border: none;
+}
+
+.text-faq {
+	background: #FFF;
+	color: #111423;
+	display: none;
+}
+
+.text-faq p {
+	font-family: Calibri;
+}
+
 /* Footer */
 
 .footer a {
