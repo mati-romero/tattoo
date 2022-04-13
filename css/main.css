@@ -21,6 +21,10 @@ p , a {
 	background: #A8692C;
 }
 
+.bg-violet {
+	background: #B31545;
+}
+
 .text-naranj {
 	color: #F7941D;
 }
@@ -31,6 +35,10 @@ p , a {
 
 .text-blanc {
 	color: #E5D7A6;
+}
+
+.text-negr {
+	color: #111423;
 }
 
 /* Nav*/
@@ -63,7 +71,7 @@ p , a {
 	display: none;
 }
 
-.text-faq p {
+.text-faq p , .cursos p {
 	font-family: Calibri;
 }
 
