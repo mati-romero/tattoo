@@ -41,6 +41,15 @@ p , a {
 	color: #111423;
 }
 
+.text-font-calibri {
+	font-family: Calibri;
+}
+
+.error {
+	color: #F7941D;
+	display: none;
+}
+
 /* Nav*/
 
 .navbar .navbar-collapse .nav-item a {
@@ -73,6 +82,41 @@ p , a {
 
 .text-faq p , .cursos p {
 	font-family: Calibri;
+}
+
+/* Formulario */
+
+.formulario input[type="text"] , .formulario input[type="email"] {
+	width: 100%;
+	outline: none;
+	border: none;
+	background: rgb(255,254,230);
+	color: rgb(67,57,66);
+	border-radius: 15px;
+}
+
+.formulario textarea {
+	width: 100%;
+	max-height: 100px;
+	min-height: 100px;
+	background: rgb(255,254,230);
+	outline: none;
+	border: none;
+	color: rgb(67,57,66);
+	border-radius: 15px;
+}
+
+.formulario input[type="submit"] {
+	text-decoration: none;
+	color: #E5D7A6;
+	border: none;
+	transition: all .4s ease;
+	background: #A8692C;
+	width: 100px;
+}
+
+.formulario input[type="submit"]:hover {
+	color: rgb(255,254,230);
 }
 
 /* Footer */
