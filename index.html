@@ -17,12 +17,12 @@
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/swiper.css">
 </head>
-<body>
+<body class="bg-blanc">
 
 	<div id="fb-root"></div>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v13.0" nonce="A7hVsDpW"></script>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-negr">
+	<nav class="navbar navbar-expand-lg navbar-light bg-000">
 		<a class="navbar-brand" href="#">
 			<img src="img/facundo logo-01.png" width="70" height="70" alt="">
 		</a>
@@ -34,22 +34,22 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link text_roj" href="#">Home</a>
+					<a class="nav-link text_roj text-uppercase" href="#">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link scroll-suave" href="#SobreMi">Sobre Mi</a>
+					<a class="nav-link scroll-suave text-uppercase" href="#SobreMi">Sobre Mi</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link scroll-suave" href="#Trabajos">Mi Trabajo</a>
+					<a class="nav-link scroll-suave text-uppercase" href="#Trabajos">Mi Trabajo</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link scroll-suave" href="#Cursos">Curso</a>
+					<a class="nav-link scroll-suave text-uppercase" href="#Cursos">Curso</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link scroll-suave" href="#FAQ">FAQs</a>
+					<a class="nav-link scroll-suave text-uppercase" href="#FAQ">FAQs</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link scroll-suave" href="#Footer">Contacto</a>
+					<a class="nav-link scroll-suave text-uppercase" href="#Footer">Contacto</a>
 				</li>
 			</ul>
 		</div>
@@ -85,7 +85,7 @@
 	</div>
 
 	<section class="main">
-		<section class="sobre-mi py-5 bg-blanc text-marron" id="SobreMi">
+		<section class="sobre-mi py-5 text-negr" id="SobreMi">
 			<div class="container text-center">
 				<h2 class="text-uppercase">Sobre Mi</h2>
 
@@ -103,18 +103,18 @@
 					</p>
 				</div>
 
-				<div class="p-5">
+				<!--<div class="p-5">
 					<img class="w-75" src="img/Facundo.jpg" alt="">
-				</div>
+				</div>-->
 
 				<img src="img/border-1.png" alt="">
 
 			</div>
 		</section>
 
-		<section class="p-5 bg-marron text-center text-blanc" id="Trabajos">
+		<section class="p-5 text-center text-negr" id="Trabajos">
 
-			<h2 class="text-uppercase my-5">Mi Trabajo</h2>
+			<h2 class="text-uppercase mt-3 mb-5">Mi Trabajo</h2>
 
 			<section id="slider">
 				<!-- Swiper -->
@@ -178,7 +178,7 @@
 			<div class="fb-comments" data-href="http://www.facundotaborda.com.ar/" data-width="100%" data-numposts="5"></div>
 		</section>		
 		
-		<section class="py-5 bg-blanc text-marron" id="FAQ">
+		<section class="py-5 text-negr" id="FAQ">
 			<div class="container text-center">
 				<h2 class="text-uppercase">PREGUNTAS FRECUENTES</h2>
 
@@ -457,9 +457,9 @@
 			</div>
 		</section>
 
-		<section class="cursos pt-5 pb-5 bg-marron text-center text-blanc" id="Cursos">
+		<section class="cursos pt-5 pb-5 text-center text-blanc" id="Cursos">
 
-			<h2 class="text-uppercase my-5">Proximamente</h2>
+			<h2 class="text-uppercase mt-3 mb-5 text-negr">Proximamente</h2>
 
 			<div class="container text-center">
 				<div class="bg-negr pt-5 pb-5">
@@ -492,8 +492,11 @@
 		</section>
 	</section>
 
-	<section class="cotizar py-5 bg-blanc" id="Cotizar">
+	<section class="cotizar py-5" id="Cotizar">
 		<div class="container">
+
+			<h2 class="text-uppercase text-negr text-center my-5">QUIERO COTIZAR MI TATUAJE</h2>
+
 			<div class="row align-items-start m-0">
 				<div class="col-12 col-lg-6 order-2 order-lg-1">
 					<form class="formulario" id="formulario" action="php/correo.php" method="POST">
@@ -524,8 +527,6 @@
 				</div>
 
 				<div class="col-12 col-lg-6 order-1 order-lg-2 mb-3">
-					<h2>QUIERO COTIZAR MI TATUAJE</h2>
-
 					<p class="text-font-calibri">
 						Necesitamos que nos brindes lo siguientes datos:
 						<br><br>1. Tu mail.
@@ -544,17 +545,13 @@
 		</div>
 	</section>
 
-	<footer class="footer bg-negr" id="Footer">
+	<footer class="footer bg-000" id="Footer">
 		<div class="row p-5 m-0">
 			<div class="col-12 col-md-4 text-center">
 				<img class="w-50" src="img/facundo logo-01.png" alt="">
 			</div>
 
 			<div class="col-12 col-md-4 text-center text-naranj">
-				<h2 class="text-uppercase">Seguime</h2>
-
-				<img class="w-50" src="img/border-2.png" alt="">
-
 				<div class="redes m-5">
 					<a class="mx-2" href="https://www.facebook.com/facku2hacker"><i class="fab fa-facebook-square"></i></a>
 					<a class="mx-2" href="https://www.linkedin.com/in/facundo-taborda-mochileando-x-ahi-80610322b/"><i class="fab fa-linkedin"></i></a>

@@ -9,6 +9,10 @@ p , a {
 	font-size: 20px;
 }
 
+.bg-000 {
+	background-color: #000;
+}
+
 .bg-negr {
 	background: #111423;
 }
@@ -23,6 +27,10 @@ p , a {
 
 .bg-violet {
 	background: #B31545;
+}
+
+.bg-gris {
+	background-color: #848484;
 }
 
 .text-naranj {
